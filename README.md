@@ -42,7 +42,7 @@ brew bundle install --file ~/dotfiles/.config/homebrew/Brewfile
 Run stow from within the dotfiles directory
 
 ```bash
-stow -v -d ~/dotfiles -t ~ .
+stow -v --no-folding -d ~/dotfiles -t ~ .
 ```
 
 Restart your terminal
