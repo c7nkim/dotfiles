@@ -1,0 +1,12 @@
+brew 'stow'
+brew 'bash'
+brew 'bash-completion'
+brew 'shellcheck'
+brew 'oh-my-posh'
+brew 'tmux'
+brew 'neovim'
+brew 'eza'
+brew 'ripgrep'
+brew 'git'
+
+cask 'font-jetbrains-mono-nerd-font'

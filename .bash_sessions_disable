@@ -1,0 +1,8 @@
+# The existence of this file disables bash sessions on Terminal.app
+# macOS includes a set of global bashrc files.
+# Two of note include /etc/bashrc and /etc/bashrc_Apple_Terminal
+# Since /etc/bashrc is the global bashrc file, /etc/bashrc is always sourced
+# When using Terminal.app, /etc/bashrc sources /etc/bashrc_Apple_Terminal
+# /etc/bashrc_Apple_Terminal adds functions to support bash sessions
+# The preference is to disable bash sessions because it pollutes the home directory.
+# On other Operating Systems, the existence of this file should result in a no-op.
