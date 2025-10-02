@@ -14,7 +14,9 @@ export HISTFILE="${XDG_STATE_HOME}/bash/history"
 export BASH_COMPLETION_USER_FILE="${XDG_CONFIG_HOME}/bash-completion/bash_completion"
 
 # homebrew
-export HOMEBREW_BUNDLE_FILE="${XDG_CONFIG_HOME}/homebrew/Brewfile"
+# NOTE: we do not use "${XDG_CONFIG_HOME}/homebrew/Brewfile"
+# as each system will have different package requirements
+export HOMEBREW_BUNDLE_FILE="${HOME}/.local/config/homebrew/Brewfile"
 
 # starhip
 export STARSHIP_CONFIG="${XDG_CONFIG_HOME}/starship/config.toml"
